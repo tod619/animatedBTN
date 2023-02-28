@@ -30,4 +30,36 @@ body {
     outline: none;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    overflow: hidden;
+}
+
+.btn span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.3s;
+}
+
+.btn-text-1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-1 {
+    top: -100%;
+}
+
+.btn-text-2 {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-2 {
+    top: 50%;
 }
